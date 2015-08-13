@@ -1,3 +1,13 @@
 pre{
 	padding:10px;
+	border-radius: 5px;	
+}
+body{
+	background-image: url("images/error.png");
+	background-size: cover;
+}
+.container{
+	margin: 0 auto;
+	line-height: 100px;
+	color:#ff0000;
 }
