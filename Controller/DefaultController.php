@@ -11,6 +11,9 @@
 		*/
 		public function home()
 		{
+			$movieManager = new\Model\MovieManager();
+			$movies = $movieManager->getRandomMovies();
+			//ptr($movies);
 			include("views/home.php");
 		}
 		/**
@@ -18,6 +21,9 @@
 		*/
 			public function details()
 		{
+			$movieManager = new \Model\MovieManager();
+			$movie = $movieManager->find($_GET['id']);
+
 			include("views/details.php");
 		}
 	}

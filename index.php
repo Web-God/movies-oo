@@ -3,7 +3,7 @@
 	include("config.php");
 	spl_autoload_register();
 	$controller = new Controller\DefaultController();
-	ptr($_GET);
+	//ptr($_GET);
 	if (empty($_GET))
 	{
 		//accueil

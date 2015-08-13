@@ -2,12 +2,15 @@ pre{
 	padding:10px;
 	border-radius: 5px;	
 }
-body{
-	background-image: url("images/error.png");
-	background-size: cover;
-}
-.container{
-	margin: 0 auto;
-	line-height: 100px;
-	color:#ff0000;
-}
+ a{
+ 	text-decoration: none;
+ 	color:#E91E63;
+ 	transition-duration:0.2s;
+ }
+ a:hover{
+ 	background-color: #E91E63;
+ 	color: #FFF;
+ 	padding:3px;
+ 	border-radius: 2px;
+
+ }

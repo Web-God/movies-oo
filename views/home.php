@@ -6,6 +6,12 @@
 	<title>Movies | Accueil</title>
 </head>
 <body>
-	Moovies | <h5><a href="<?= ROOT_URL ?>" title="détails">Détails du film</a></h5>
+	Moovies | <h4><a href="<?= ROOT_URL ?>" title="détails">Détails du film</a></h4>
+
+	<?php foreach ($movies as $movie):?>
+		<div class="movie">
+		<a href="<?= ROOT_URL ?>/details/?id=<?= $movie['id'] ?>"><?= $movie['title'] ?></a>
+		</div>
+	<?php endforeach; ?>
 </body>
 </html>
