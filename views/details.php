@@ -7,5 +7,6 @@
 </head>
 <body>
 	<h5><a href="<?= ROOT_URL ?>" title="accueil">Moovies</a> | Détails du film</h5>
+	<h4><?= $movie['title'];?></h4>
 </body>
 </html>
